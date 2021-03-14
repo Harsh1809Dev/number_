@@ -1,0 +1,36 @@
+"number_" is a terminal/cmd command which reads a file and show the content file in the terminal/cmd along with the numbering of lines.
+=======================================================================================================================================
+PREREQUISITE:
+	1. NodeJS should be installed in you system.
+	2. npm should be installed in your system.
+	3. fs should be install in your system.
+=======================================================================================================================================
+SOFTWARE INSTALLATION:
+	Windows:
+		1.NodeJS:
+			1. To install NodeJS, visit https://nodejs.org/en/ and download the LTS version.
+			2. After downloading NodeJS setup, install NodeJS.
+		2. NPM:
+			npm is already installed with NodeJS.
+		3. fs:
+			1. First navigate to the folder where you want to install fs.
+			2. Open your cmd there.
+			3. In your cmd type:
+				"npm install fs"
+			4. This will automatically install fs in you current directory/folder.
+	linux:
+		1. NodeJS:
+			write "sudo apt install nodejs" in your terminal.
+		2. npm:
+			write "sudo apt install npm" in your terminal.
+		3. fs:
+			write "sudo npm install fs" in your terminal.
+======================================================================================================================================
+INSTRUCTION:
+	1. Clone the repository in you system.
+	2. Open terminal/cmd and write:
+			windows(in cmd) : "npm link"
+			linux(in terminal) : "sudo npm link"
+	3. Once the command is complete you can use the command:
+			"number_ (file_name)"
+=======================================================================================================================================

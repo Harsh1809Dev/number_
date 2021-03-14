@@ -1,0 +1,19 @@
+{
+  "name": "number_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "bin": {
+    "number_": "script.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "number_": "node script.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
